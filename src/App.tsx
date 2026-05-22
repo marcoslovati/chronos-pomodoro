@@ -26,7 +26,12 @@ function App() {
       <Container>
         <form className='form'>
           <div className='formRow'>
-            <DefaultInput id='meuInput' type='number' labelText='' />
+            <DefaultInput
+              id='meuInput'
+              type='number'
+              labelText=''
+              placeholder='Digite algo'
+            />
           </div>
 
           <div className='formRow'>
